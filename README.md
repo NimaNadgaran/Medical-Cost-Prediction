@@ -18,7 +18,6 @@ It contains **two implementations**:
 ```bash
 Medical-Cost-Prediction/
 ├── README.md                  # Project overview (this file)
-├── LICENSE                    # License for dataset + code
 ├── requirements.txt           # Python dependencies
 │
 ├── from_scratch/              # Manual implementation
@@ -31,6 +30,7 @@ Medical-Cost-Prediction/
 │
 └── data/                      # Dataset & documentation
     ├── Medical-Insurance.csv
+    ├── LICENSE                # License for dataset + code
     └── README.md              # Dataset description
 ```
 
