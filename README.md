@@ -15,29 +15,24 @@ It contains **two implementations**:
 ---
 
 ## 📂 Project Structure
+```bash
 Medical-Cost-Prediction/
-│── README.md
-
-│── LICENSE
-
-│── requirements.txt
-
+├── README.md                  # Project overview (this file)
+├── LICENSE                    # License for dataset + code
+├── requirements.txt           # Python dependencies
 │
-├── from_scratch/
-
-│ ├── insurance_regression_raw.py # Manual gradient descent & regression
-
-│ └── explanation_raw.md # Step-by-step explanation
-
+├── from_scratch/              # Manual implementation
+│   ├── insurance_regression_raw.py
+│   └── explanation_raw.md
 │
-├── with_libraries/
-│ ├── insurance_regression_libs.py # Using sklearn & pandas
-│ └── explanation_libs.md # Walkthrough of library-based solution
+├── with_libraries/            # Library-based implementation
+│   ├── insurance_regression_libs.py
+│   └── explanation_libs.md
 │
-└── data/
-└── Medical-Insurance.csv # Dataset (MIT Licensed, see LICENSE)
-
----
+└── data/                      # Dataset & documentation
+    ├── Medical-Insurance.csv
+    └── README.md              # Dataset description
+```
 
 ## 🚀 How to Run
 
