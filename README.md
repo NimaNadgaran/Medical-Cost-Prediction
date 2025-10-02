@@ -17,12 +17,18 @@ It contains **two implementations**:
 ## 📂 Project Structure
 Medical-Cost-Prediction/
 │── README.md
+
 │── LICENSE
+
 │── requirements.txt
+
 │
 ├── from_scratch/
+
 │ ├── insurance_regression_raw.py # Manual gradient descent & regression
+
 │ └── explanation_raw.md # Step-by-step explanation
+
 │
 ├── with_libraries/
 │ ├── insurance_regression_libs.py # Using sklearn & pandas
