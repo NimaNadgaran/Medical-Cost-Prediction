@@ -21,17 +21,17 @@ Medical-Cost-Prediction/
 ├── requirements.txt           # Python dependencies
 │
 ├── from_scratch/              # Manual implementation
-│   ├── insurance_regression_raw.py
+│   ├── raw_code.ipynb
 │   └── explanation_raw.md
 │
 ├── with_libraries/            # Library-based implementation
-│   ├── insurance_regression_libs.py
+│   ├── lib_version.ipynb
 │   └── explanation_libs.md
 │
 └── data/                      # Dataset & documentation
     ├── Medical-Insurance.csv
-    ├── LICENSE                # License for dataset + code
-    └── README.md              # Dataset description
+    ├── LICENSE.txt            # License for dataset + code
+    └── DATA_DESCRIPTION.md    # Dataset description
 ```
 
 ## 🚀 How to Run
