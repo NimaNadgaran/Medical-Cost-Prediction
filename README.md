@@ -17,21 +17,22 @@ It contains **two implementations**:
 ## 📂 Project Structure
 ```bash
 Medical-Cost-Prediction/
-├── README.md                  # Project overview (this file)
 ├── requirements.txt           # Python dependencies
+├── README.md                  # Project overview (this file)
 │
-├── from_scratch/              # Manual implementation
-│   ├── raw_code.ipynb
-│   └── explanation_raw.md
+├──data/                       # Dataset & documentation
+│   ├── DATA_DESCRIPTION.md    # Dataset description
+│   ├── LICENSE.txt            # License for dataset + code
+│   └── Medical-Insurance.csv
 │
-├── with_libraries/            # Library-based implementation
-│   ├── lib_version.ipynb
-│   └── explanation_libs.md
+├──from_scratch/               # Manual implementation
+│   ├── explanation_raw.md
+│   └── raw_code.ipynb
 │
-└── data/                      # Dataset & documentation
-    ├── Medical-Insurance.csv
-    ├── LICENSE.txt            # License for dataset + code
-    └── DATA_DESCRIPTION.md    # Dataset description
+└── with_libraries/            # Library-based implementation
+    ├── explanation_libs.md
+    └── lib_version.ipynb
+
 ```
 
 ## 🚀 How to Run
