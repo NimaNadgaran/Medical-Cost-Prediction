@@ -1,7 +1,5 @@
 requirements.txt  
 
-```txt
 pandas
 matplotlib
 scikit-learn
-txt```
